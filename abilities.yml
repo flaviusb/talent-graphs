@@ -1,0 +1,54 @@
+- Name: Novice Spellcasting
+  Type: [Mana Sensitive, Spellcasting, Magical]
+  Prerequisites: [["Will 2"]]
+  Level: Novice
+  XP: 3
+  Description: You can now learn and cast 1st Circle Spells that are not aligned to a metaplane.
+- Name: Adept Spellcasting
+  Type: [Spellcasting, Magical]
+  Prerequisites: [["Wits 2"]]
+  Level: Adept
+  XP: 5
+  Description: You can now learn and cast 2nd Circle Spells that are not aligned to a metaplane.
+- Name: Expert Spellcasting
+  Type: [Spellcasting, Magical]
+  Prerequisites: [["Will 3"]]
+  Level: Expert
+  XP: 10
+  Description: You can now learn and cast 3rd Circle Spells that are not aligned to a metaplane.
+- Name: Master Spellcasting
+  Type: [Spellcasting, Magical]
+  Prerequisites: [["Will 5", "Wits 4"]]
+  Level: Master
+  XP: 20
+  Description: You can now learn and cast 4th Circle Spells that are not aligned to a metaplane.
+- Name: Archmaster Spellcasting
+  Type: [Spellcasting, Magical]
+  Prerequisites: [["Will 6", "Wits 6"]]
+  Level: Archmaster
+  XP: 50
+  Description: You can now learn and cast 5th Circle Spells that are not aligned to a metaplane.
+- Name: Astral Perception
+  Type: [Magical, Astral]
+  Level: Novice
+  Prerequisites: [[Novice Spellcasting], [Spirit Blooded]]
+  XP: 5
+  Description: You gain the ability to peer across the gauntlet. In an area with... you may...
+- Name: Astral Projection
+  Type: [Magical, Astral]
+  Level: Adept
+  Prerequisites: [[Astral Perception]]
+  XP: 7
+  Description: In an area with an Astral plane, you can astrally project. You leave a representation of your body behind, and become incorporeal (donning a blue headband).
+- Name: Astral Combat
+  Type: [Magical, Astral, Martial]
+  Level: Expert
+  Prerequisites: [[Astral Projection], [Weapon Channelling, Astral Perception], [Ki Manipulation, Blind Fighting]]
+  XP: 7
+  Description: You can affect the incorporeal. If you have Weapon Channelling, you can strike the incorporeal with an attuned weapon. If you have Weapon Channelling and Astral Proection, you can choose to bring attuned weapons with you when you astrally project. If you have Ki Manipulation and Blind Fighting you may use any Ki attack on an incorporeal being, though you must also abide by the Blind Fighting rules.
+- Name: Blind Fighting
+  Type: [Martial]
+  Level: Adept
+  Prerequisites: [["???"]]
+  XP: 5
+  Description: You can strike at invisible enemies, though you still cannot see them. Physrep this by ...
