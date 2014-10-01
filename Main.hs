@@ -20,10 +20,15 @@ instance FromJSON Ability where
 quoted :: String -> String
 quoted thing = "\"" ++ thing ++ "\""
 
+style :: String -> String
+style "black" = ""
+style colour  = " [color=" ++ colour ++ "]"
+
 main = do
          ymlData <- BS.readFile "abilities.yml"
+         let colours = ["black", "blue", "green", "orange"]
          let abilities = fromJust (Data.Yaml.decode ymlData :: Maybe [Ability])
          let start = "digraph G {\n"
          let end  = "}"
-         let arrows = foldl (\acc ability -> acc ++ foldl (\acc2 prereqlist -> acc2 ++ foldl (\acc3 prereq -> acc3 ++ (quoted prereq) ++ " -> " ++  (quoted $ name ability) ++ ";\n") "" prereqlist) "" (prerequisites ability)) "" abilities
+         let arrows = foldl (\acc ability -> acc ++ foldl (\acc2 prereqlist -> acc2 ++ foldl (\acc3 prereq -> acc3 ++ (quoted $ fst prereq) ++ " -> " ++  (quoted $ name ability) ++ (style $ snd prereq) ++ ";\n") "" (map (\foo -> (foo, snd prereqlist)) $ fst prereqlist )) "" (zip (prerequisites ability) colours)) "" abilities
          putStrLn $ start ++ arrows ++ end
