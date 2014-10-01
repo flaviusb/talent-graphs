@@ -19,6 +19,6 @@ instance FromJSON Ability where
 
 main = do
          ymlData <- BS.readFile "abilities.yml"
-         let abilities = Data.Yaml.decode ymlData :: Maybe [Ability]
-         -- Print it, just for show
-         print $ fromJust abilities
+         let abilities = fromJust (Data.Yaml.decode ymlData :: Maybe [Ability])
+         putStrLn $ foldl (\acc ability -> acc ++ foldl (\acc2 prereqlist -> acc2 ++ foldl (\acc3 prereq -> acc3 ++ prereq ++ " -> " ++ (name ability) ++ ";\n") "" prereqlist) "" (prerequisites ability)) "" abilities
+         print abilities
