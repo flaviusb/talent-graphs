@@ -6,25 +6,25 @@
   Description: You can now learn and cast 1st Circle Spells that are not aligned to a metaplane.
 - Name: Adept Spellcasting
   Type: [Spellcasting, Magical]
-  Prerequisites: [["Wits 2"]]
+  Prerequisites: [["Wits 2", Novice Spellcasting]]
   Level: Adept
   XP: 5
   Description: You can now learn and cast 2nd Circle Spells that are not aligned to a metaplane.
 - Name: Expert Spellcasting
   Type: [Spellcasting, Magical]
-  Prerequisites: [["Will 3"]]
+  Prerequisites: [["Will 3", Adept Spellcasting]]
   Level: Expert
   XP: 10
   Description: You can now learn and cast 3rd Circle Spells that are not aligned to a metaplane.
 - Name: Master Spellcasting
   Type: [Spellcasting, Magical]
-  Prerequisites: [["Will 5", "Wits 4"]]
+  Prerequisites: [["Will 5", "Wits 4", Expert Spellcasting]]
   Level: Master
   XP: 20
   Description: You can now learn and cast 4th Circle Spells that are not aligned to a metaplane.
 - Name: Archmaster Spellcasting
   Type: [Spellcasting, Magical]
-  Prerequisites: [["Will 6", "Wits 6"]]
+  Prerequisites: [["Will 6", "Wits 6", Master Spellcasting]]
   Level: Archmaster
   XP: 50
   Description: You can now learn and cast 5th Circle Spells that are not aligned to a metaplane.
