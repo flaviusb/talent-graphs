@@ -53,9 +53,8 @@ ability_squares abilities = "\n[cols=\"2\"]\n|===\n" ++ (concat (map (\ability -
 main = do
          ymlData <- BS.readFile "abilities.yml"
          let abilities = fromJust (Data.Yaml.decode ymlData :: Maybe [Ability])
-         print abilities
          frontmatter <- readFile "frontmatter.asciidoc.part"
-         let start = "\n[graphviz, foo, png]\n....\ndigraph G {\n"
+         let start = "\n[graphviz, foo, png, width=\"500\", height=\"900\"]\n....\ndigraph G {\n"
          let end  = "}\n....\n"
          let diagram = arrows abilities
          putStrLn $ frontmatter ++ (ability_squares abilities) ++ start ++ diagram ++ end
