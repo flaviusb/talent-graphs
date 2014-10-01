@@ -51,4 +51,12 @@
   Level: Adept
   Prerequisites: [["???"]]
   XP: 5
-  Description: You can strike at invisible enemies, though you still cannot see them. Physrep this by ...
+  Description: You can strike at invisible enemies, though you still cannot see them. Once per encounter, after you are struck by an invisible enemy you can counter strike.
+- Name: Spellslinger
+  Type: [Magical]
+  Level: Adept
+  Prerequisites: [["Novice Spellcasting"]]
+  XP: 3
+  Description: >
+    You can cast non-ritual spells and use non-ritual spell like abilities while distracted by participating in physical combat.
+    Note that this ability does not mitigate the need for verbal, somatic, time, or material components of a spell.
