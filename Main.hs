@@ -17,8 +17,13 @@ instance FromJSON Ability where
                            v .: "Prerequisites"
     parseJSON _ = error "Can't parse ability from YAML"
 
+quoted :: String -> String
+quoted thing = "\"" ++ thing ++ "\""
+
 main = do
          ymlData <- BS.readFile "abilities.yml"
          let abilities = fromJust (Data.Yaml.decode ymlData :: Maybe [Ability])
-         putStrLn $ foldl (\acc ability -> acc ++ foldl (\acc2 prereqlist -> acc2 ++ foldl (\acc3 prereq -> acc3 ++ prereq ++ " -> " ++ (name ability) ++ ";\n") "" prereqlist) "" (prerequisites ability)) "" abilities
-         print abilities
+         let start = "digraph G {\n"
+         let end  = "}"
+         let arrows = foldl (\acc ability -> acc ++ foldl (\acc2 prereqlist -> acc2 ++ foldl (\acc3 prereq -> acc3 ++ (quoted prereq) ++ " -> " ++  (quoted $ name ability) ++ ";\n") "" prereqlist) "" (prerequisites ability)) "" abilities
+         putStrLn $ start ++ arrows ++ end
