@@ -60,3 +60,21 @@
   Description: >
     You can cast non-ritual spells and use non-ritual spell like abilities while distracted by participating in physical combat.
     Note that this ability does not mitigate the need for verbal, somatic, time, or material components of a spell.
+- Name: Novice Silent Spell
+  Type: [Magical]
+  Level: Novice
+  Prerequisites: [["Novice Spellcasting", "Finesse 2"]]
+  XP: 1
+  Description: You can cast non-ritual spells of the first circle without the need for verbal components.
+- Name: Adept Silent Spell
+  Type: [Magical]
+  Level: Adept
+  Prerequisites: [["Adept Spellcasting", "Finesse 3", "Novice Silent Spell"]]
+  XP: 2
+  Description: You can cast non-ritual spells of the second circle without the need for verbal components.
+- Name: Expert Silent Spell
+  Type: [Magical]
+  Level: Expert
+  Prerequisites: [["Expert Spellcasting", "Finesse 4", "Adept Silent Spell"]]
+  XP: 3
+  Description: You can cast non-ritual spells of the third circle without the need for verbal components.
