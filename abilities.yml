@@ -123,6 +123,12 @@
     You can attune weapons to yourself. To attune a single weapon takes a five minute ritual. You can drop a weapon attunement at any time.
     You may have up to your Will in weapons attuned at any time. You can learn Weapon Spells of up to the circle of spellcasting you have.
     You can cast Weapon Spells through a weapon attuned to you. This is a Channelling effect.
+- Name: War Magic
+  Type: ["Magical", "Martial"]
+  Level: Master
+  XP: 10
+  Prerequisites: [["???", "Capstone"]]
+  Description: "You may add up to your Wits in damage to any damage spell. This includes Weapon Spells."
 - Name: Counter Spell
   Type: ["Magical"]
   Level: Adept
