@@ -114,3 +114,48 @@
   Prerequisites: [["Expert Spellcasting", "Power 4", "Adept Quick Spell"]]
   XP: 3
   Description: You can cast non-ritual spells of the third circle every ten seconds, instead of every minute.
+- Name: Weapon Magic
+  Type: ["Magical", "Martial", "Channelling"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Spellslinger"]]
+  Description: >
+    You can attune weapons to yourself. To attune a single weapon takes a five minute ritual. You can drop a weapon attunement at any time.
+    You may have up to your Will in weapons attuned at any time. You can learn Weapon Spells of up to the circle of spellcasting you have.
+    You can cast Weapon Spells through a weapon attuned to you. This is a Channelling effect.
+- Name: Counter Spell
+  Type: ["Magical"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: "You may counter spell packet and point spells at the cost of 2 Mana"
+- Name: Spell Shield
+  Type: ["Magical"]
+  Level: Expert
+  XP: 4
+  Prerequisites: [["Counter Spell"]]
+  Description: "You may counter touch and blast spells at the cost of 2 Mana"
+- Name: Spell Break
+  Type: ["Magical"]
+  Level: Master
+  XP: 5
+  Prerequisites: [["Spell Shield", "Will 4"]]
+  Description: "Spell break..."
+- Name: Counter Channelling
+  Type: ["Magical"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: "You may counter spell packet and point channelling effects at the cost of 2 Mana"
+- Name: Channelling Shield
+  Type: ["Magical"]
+  Level: Expert
+  XP: 4
+  Prerequisites: [["Counter Channelling"]]
+  Description: "You may counter touch and blast channelling effects at the cost of 2 Mana"
+- Name: Channelling Break
+  Type: ["Magical"]
+  Level: Master
+  XP: 5
+  Prerequisites: [["Channelling Shield", "Will 4"]]
+  Description: "Break a Channelling..."
