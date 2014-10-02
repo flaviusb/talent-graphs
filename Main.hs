@@ -43,7 +43,7 @@ ability_square :: Ability -> String
 ability_square ability = concat [
               "*", name ability, "*\n",
               "XP Cost: ", show (xp ability), " (", level ability, ")\n",
-              "_Prerequisites:_ ", prereq_to_span ability, "\n",
+              "_Prerequisites_: ", prereq_to_span ability, "\n",
               description ability, "\n"]
 
 ability_squares :: [Ability] -> String
@@ -54,7 +54,7 @@ main = do
          ymlData <- BS.readFile "abilities.yml"
          let abilities = fromJust (Data.Yaml.decode ymlData :: Maybe [Ability])
          frontmatter <- readFile "frontmatter.asciidoc.part"
-         let start = "\n[graphviz, foo, png, width=\"500\", height=\"900\"]\n....\ndigraph G {\n"
+         let start = "\n<<<\n[graphviz, foo, png, width=\"550\", height=\"600\"]\n....\ndigraph G {\n"
          let end  = "}\n....\n"
          let diagram = arrows abilities
          putStrLn $ frontmatter ++ (ability_squares abilities) ++ start ++ diagram ++ end
