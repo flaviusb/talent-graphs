@@ -47,7 +47,7 @@ ability_square ability = concat [
               description ability, "\n"]
 
 ability_squares :: [Ability] -> String
-ability_squares abilities = "\n[cols=\"2\"]\n|===\n" ++ (concat (map (\ability -> "|\n" ++ (ability_square ability) ++ "\n") abilities)) ++ "|===\n"
+ability_squares abilities = "\n[cols=\"2\"]\n|===\n" ++ (concat (map (\ability -> "|\n" ++ (ability_square ability) ++ "\n") abilities)) ++ "|\n|===\n"
 
 
 main = do
