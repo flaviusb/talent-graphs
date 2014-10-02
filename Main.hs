@@ -54,7 +54,7 @@ main = do
          ymlData <- BS.readFile "abilities.yml"
          let abilities = fromJust (Data.Yaml.decode ymlData :: Maybe [Ability])
          frontmatter <- readFile "frontmatter.asciidoc.part"
-         let start = "\n<<<\n[graphviz, foo, png, width=\"550\", height=\"600\"]\n....\ndigraph G {\n"
+         let start = "\n<<<\n[graphviz, talents-diagram, png, width=\"550\", height=\"600\"]\n....\ndigraph G {\n"
          let end  = "}\n....\n"
          let diagram = arrows abilities
          putStrLn $ frontmatter ++ (ability_squares abilities) ++ start ++ diagram ++ end
