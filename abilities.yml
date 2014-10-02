@@ -158,4 +158,26 @@
   Level: Master
   XP: 5
   Prerequisites: [["Channelling Shield", "Will 4"]]
-  Description: "Break a Channelling..."
+  Description: >
+    You may make a touch attack that breaks an attunement effect, calling ATTUNEMENT BREAK. If you are attacked by a
+    Weapon Channelled effect, and the blow lands, you may call ATTUNEMENT BREAK on that weapon. If you have the Weapon Spell
+    ability, you may as a Channelling effect channel the Attunement Break.
+- Name: Conduit of Power
+  Type: ["Magical", "Channelling"]
+  Level: Expert
+  XP: 7
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: >
+    You can attune people to yourself. To attune a single person takes a five minute ritual. You can drop a person attunement at any time.
+    You may have up to your Will in people attuned at any time. You can attune yourself to Fonts of Power. You may be attuned to up to a number of
+    Fonts of Power equal to your Finesse. ... This is a Channelling effect.
+- Name: Font of Power
+  Type: ["Magical", "Channelling"]
+  Level: Master
+  XP: 10
+  Prerequisites: [["Adept Spellcasting", "Will 4"]]
+  Description: >
+    You are a Font of Power. You may allow a number of Conduits of Power to attune themselves to you up to your Power. At any time you may drop a person attunement.
+    You may channel spells (chosen by you) through Conduits of Power to be cast by a person (chosen by the Conduit of Power) that that Conduit of Power has attumed to themselves.
+    You pay the mana and reagent costs for any such spells. This is a Channelling effect.
+
