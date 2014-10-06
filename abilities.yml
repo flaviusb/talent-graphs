@@ -186,4 +186,92 @@
     You are a Font of Power. You may allow a number of Conduits of Power to attune themselves to you up to your Power. At any time you may drop a person attunement.
     You may channel spells (chosen by you) through Conduits of Power to be cast by a person (chosen by the Conduit of Power) that that Conduit of Power has attumed to themselves.
     You pay the mana and reagent costs for any such spells. This is a Channelling effect.
-
+- Name: "'Elven' Magic"
+  Type: ["Magical", "Magical Path", "Elvish"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Novice Spellcasting"]]
+  Description: >
+    You have learned a more elegent method of spellcasting, invented by the Elves.
+- Name: "Blood Sorcery"
+  Type: ["Magical", "Magical Path", "Path of Blood"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Novice Spellcasting"]]
+  Description: >
+    You have learned a more brutal method of spellcasting, using the power of blood to augment your magic.
+- Name: "Shamanism"
+  Type: ["Magical", "Magical Path", "Spirit Magic"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Novice Spellcasting"]]
+  Description: >
+    You have learned a more spiritual method of spellcasting, mimicing on the matrices of world spirits.
+- Name: "Divine Magic"
+  Type: ["Magical", "Magical Path", "Divine Magic"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Novice Spellcasting"], ["Priest"], ["Cleric"]]
+  Description: >
+    You have learned a more divine method of spellcasting, drawing on a God or Pantheon.
+- Name: "Druidism"
+  Type: ["Magical", "Magical Path", "Druid"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Novice Spellcasting", "Novice Forager"], ["Novice Spellcasting", "Novice Hunter"]]
+  Description: >
+    You have learned a more natural method of spellcasting, which relies on the world itself.
+- Name: Priest
+  Type: ["Magical", "Professional"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["True Faith"]]
+  Description: You are a member of the clergy of a religion. You can ...
+- Name: Cleric
+  Type: ["Magical", "Channelling"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Conduit of Power"]]
+  Description: You are a channel through which your God communicates with the world...
+- Name: "True Faith"
+  Type: ["Magical"]
+  Level: Novice
+  XP: 10
+  Prerequisites: [[]]
+  Description: "You have True Faith. This may or may not have any in game effect. You will just have to have Faith."
+- Name: Novice Sword
+  Type: ["Martial"]
+  Level: Novice
+  XP: 1
+  Prerequisites: [[]]
+  Description: You can use a one-handed sword proficiently. If you do not have this ability, you may not use a sword in combat at all.
+- Name: Adept Sword
+  Type: ["Martial"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Novice Sword"]]
+  Description: You can use a sword to stun someone 1/Encounter.
+- Name: Expert Sword
+  Type: ["Martial"]
+  Level: Expert
+  XP: 5
+  Prerequisites: [["Adept Sword", "Finesse 2"]]
+  Description: "You gain 1AP per sword when you wield a sword or swords in combat."
+- Name: Two weapon training
+  Type: ["Martial"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Finesse 3"]]
+  Description: You can wield two one handed weapons at the same time in combat, provided that you can normally wield both weapons one handed in combat.
+- Name: Novice two handed weapon
+  Type: ["Martial"]
+  Level: Novice
+  XP: 3
+  Prerequisites: [["Power 2"]]
+  Description: You can wield in combat any two handed variant of any one handed weapon you could normally wield in combat.
+- Name: Adept two handed weapon
+  Type: ["Martial"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Power 3", "Novice two handed weapon"]]
+  Description: Increase the base damage of any two handed weapon you use in combat by one.
