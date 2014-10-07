@@ -257,6 +257,24 @@
   XP: 5
   Prerequisites: [["Adept Sword", "Finesse 2"]]
   Description: "You gain 1AP per sword when you wield a sword or swords in combat."
+- Name: Novice Axe
+  Type: ["Martial"]
+  Level: Novice
+  XP: 1
+  Prerequisites: [[]]
+  Description: You can use a one-handed axe proficiently. If you do not have this ability, you may not use a axe in combat at all.
+- Name: Adept Axe
+  Type: ["Martial"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Novice Axe"]]
+  Description: You can use an axe to break a shield 1/Encounter, calling SHIELD BREAK.
+- Name: Expert Axe
+  Type: ["Martial"]
+  Level: Expert
+  XP: 5
+  Prerequisites: [["Adept Axe", "Finesse 2"]]
+  Description: "Increase the base damage of any axe you wield to two."
 - Name: Two weapon training
   Type: ["Martial"]
   Level: Adept
@@ -275,3 +293,9 @@
   XP: 5
   Prerequisites: [["Power 3", "Novice two handed weapon"]]
   Description: Increase the base damage of any two handed weapon you use in combat by one.
+- Name: Fearless
+  Type: ["Martial"]
+  Level: Adept
+  XP: 5
+  Prerequisites: [["Power 3"], ["Will 3"]]
+  Description: You are truly fearless. You are completely immune to FEAR calls, and all FEAR effects.
