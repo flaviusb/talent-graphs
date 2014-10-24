@@ -166,8 +166,31 @@
   Prerequisites: [["Channelling Shield", "Will 4"]]
   Description: >
     You may make a touch attack that breaks an attunement effect, calling ATTUNEMENT BREAK. If you are attacked by a
-    Weapon Channelled effect, and the blow lands, you may call ATTUNEMENT BREAK on that weapon. If you have the Weapon Spell
+    Weapon Channelled effect, and the blow lands, you may call ATTUNEMENT BREAK on that weapon - note that this means that
+    in this instance you will be affected by the Weapon Channelled effect. If you have the Weapon Spell
     ability, you may as a Channelling effect channel the Attunement Break. Using this ability costs 2 Mana.
+- Name: Counter Artifact
+  Type: ["Magical"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: "You may counter spell packet and point artifact effects at the cost of 2 Mana"
+- Name: Artifact Shield
+  Type: ["Magical"]
+  Level: Expert
+  XP: 4
+  Prerequisites: [["Counter Artifact"]]
+  Description: "You may counter touch and blast artifact effects at the cost of 2 Mana"
+- Name: Artifact Break
+  Type: ["Magical"]
+  Level: Master
+  XP: 5
+  Prerequisites: [["Artifact Shield", "Will 4"]]
+  Description: >
+    You may make a touch attack that breaks an artifact, calling ARTIFACT BREAK. If you are targetted by an
+    artifact effect, and the effect lands, you may call ARTIFACT BREAK on that artifact - note that this means that
+    in this instance you will be affected by the artifact effect. If you have the Weapon Spell
+    ability, you may as a Channelling effect channel the Artifact Break. Using this ability costs 2 Mana.
 - Name: Conduit of Power
   Type: ["Magical", "Channelling"]
   Level: Expert
