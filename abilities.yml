@@ -60,58 +60,58 @@
   Description: >
     You can cast non-ritual spells and use non-ritual spell like abilities while distracted by participating in physical combat.
     Note that this ability does not mitigate the need for verbal, somatic, time, or material components of a spell.
-- Name: Novice Silent Spell
+- Name: Novice Silent Spells
   Type: [Magical]
   Level: Novice
   Prerequisites: [["Novice Spellcasting", "Finesse 2"]]
   XP: 1
   Description: You can cast non-ritual spells of the first circle without the need for verbal components.
-- Name: Adept Silent Spell
+- Name: Adept Silent Spells
   Type: [Magical]
   Level: Adept
-  Prerequisites: [["Adept Spellcasting", "Finesse 3", "Novice Silent Spell"]]
+  Prerequisites: [["Adept Spellcasting", "Finesse 3", "Novice Silent Spells"]]
   XP: 2
   Description: You can cast non-ritual spells of the second circle without the need for verbal components.
-- Name: Expert Silent Spell
+- Name: Expert Silent Spells
   Type: [Magical]
   Level: Expert
-  Prerequisites: [["Expert Spellcasting", "Finesse 4", "Adept Silent Spell"]]
+  Prerequisites: [["Expert Spellcasting", "Finesse 4", "Adept Silent Spells"]]
   XP: 3
   Description: You can cast non-ritual spells of the third circle without the need for verbal components.
-- Name: Novice Still Spell
+- Name: Novice Still Spells
   Type: [Magical]
   Level: Novice
   Prerequisites: [["Novice Spellcasting", "Fortitude 2"]]
   XP: 1
   Description: You can cast non-ritual spells of the first circle without the need for somatic components.
-- Name: Adept Still Spell
+- Name: Adept Still Spells
   Type: [Magical]
   Level: Adept
-  Prerequisites: [["Adept Spellcasting", "Fortitude 3", "Novice Still Spell"]]
+  Prerequisites: [["Adept Spellcasting", "Fortitude 3", "Novice Still Spells"]]
   XP: 2
   Description: You can cast non-ritual spells of the second circle without the need for somatic components.
-- Name: Expert Still Spell
+- Name: Expert Still Spells
   Type: [Magical]
   Level: Expert
-  Prerequisites: [["Expert Spellcasting", "Fortitude 4", "Adept Still Spell"]]
+  Prerequisites: [["Expert Spellcasting", "Fortitude 4", "Adept Still Spells"]]
   XP: 3
   Description: You can cast non-ritual spells of the third circle without the need for somatic components.
-- Name: Novice Quick Spell
+- Name: Novice Quick Spells
   Type: [Magical]
   Level: Novice
   Prerequisites: [["Novice Spellcasting", "Power 2"]]
   XP: 1
   Description: You can cast non-ritual spells of the first circle every ten seconds, instead of every minute.
-- Name: Adept Quick Spell
+- Name: Adept Quick Spells
   Type: [Magical]
   Level: Adept
-  Prerequisites: [["Adept Spellcasting", "Power 3", "Novice Quick Spell"]]
+  Prerequisites: [["Adept Spellcasting", "Power 3", "Novice Quick Spells"]]
   XP: 2
   Description: You can cast non-ritual spells of the second circle every ten seconds, instead of every minute.
-- Name: Expert Quick Spell
+- Name: Expert Quick Spells
   Type: [Magical]
   Level: Expert
-  Prerequisites: [["Expert Spellcasting", "Power 4", "Adept Quick Spell"]]
+  Prerequisites: [["Expert Spellcasting", "Power 4", "Adept Quick Spells"]]
   XP: 3
   Description: You can cast non-ritual spells of the third circle every ten seconds, instead of every minute.
 - Name: Weapon Magic
