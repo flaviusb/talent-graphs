@@ -167,7 +167,7 @@
   Description: >
     You may make a touch attack that breaks an attunement effect, calling ATTUNEMENT BREAK. If you are attacked by a
     Weapon Channelled effect, and the blow lands, you may call ATTUNEMENT BREAK on that weapon. If you have the Weapon Spell
-    ability, you may as a Channelling effect channel the Attunement Break.
+    ability, you may as a Channelling effect channel the Attunement Break. Using this ability costs 2 Mana.
 - Name: Conduit of Power
   Type: ["Magical", "Channelling"]
   Level: Expert
