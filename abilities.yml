@@ -337,6 +337,6 @@
   XP: 5
   Prerequisites: [["Fearless", "Wits 3"]]
   Description: >
-    By giving a speach lasting at least five minutes, for the next hour some of the troops who heard you give the speach become are completely
+    By giving a speach lasting at least two minutes, for the next hour some of the troops who heard you give the speach become are completely
     immune to FEAR calls, and all FEAR effects, as if they had the Fearless ability. You can affect a number of troops with this ability
     equal to the sum of your attributes. You must designate clearly which troops your ability affects.
