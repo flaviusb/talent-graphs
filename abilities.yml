@@ -262,6 +262,41 @@
   XP: 10
   Prerequisites: [[]]
   Description: "You have True Faith. This may or may not have any in game effect. You will just have to have Faith."
+- Name: Novice Shield
+  Type: ["Martial"]
+  Level: Novice
+  XP: 1
+  Prerequisites: [[]]
+  Description: You can use a buckler shield in combat, up to 80 cm in diameter.
+- Name: Adept Shield
+  Type: ["Martial"]
+  Level: Adept
+  XP: 3
+  Prerequisites: [["Novice Shield"]]
+  Description: You can use a kite shield in combat, up to 100 cm in diameter.
+- Name: Expert Shield
+  Type: ["Martial"]
+  Level: Expert
+  XP: 5
+  Prerequisites: [["Adept Shield", "Power 2"]]
+  Description: You can use a tower shield in combat, up to 125 cm in diameter.
+- Name: Shieldgrip
+  Type: ["Martial"]
+  Level: Novice
+  XP: 2
+  Prerequisites: [["Novice Shield"]]
+  Description: You can resist a shield break 1/Encounter.
+- Name: Close quarters shieldwork
+  Type: ["Martial"]
+  Level: Adept
+  XP: 2
+  Prerequisites: [["Adept Shield", "Finesse 2"]]
+  Description: You can block point blank shots with a shield.
+- Name: "Do not fear the Dragon's Flame"
+  Level: Expert
+  XP: 2
+  Prerequisites: [["Master Shield", "Finesse 2", "Fortitude 2"]]
+  Description: You can use a kite or tower shield to resist a blast effect 1/Encounter
 - Name: Novice Sword
   Type: ["Martial"]
   Level: Novice
