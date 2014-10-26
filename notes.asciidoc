@@ -2,6 +2,7 @@ The Children of the Snakes
 --------------------------
 
 Basilisks vs Dragons
+-Basilisks are Universal Truths, Dragons are Universal Forces.
 
 Basilisks have Gaze attacks that do not do energy damage. High cost, and the damage effects are always 1. Examples: Gaze Fear, Gaze 1, Gaze Sleep, Gaze Agony, Gaze Stun. They also have touch poison effects.
 
@@ -43,7 +44,7 @@ On the Nature of Mana
 On the Nature of Metaplanes
 ---------------------------
 
-Sources, Sinks, Floating Mana Level, Forced Mana Level, Charge, Current, Ground, Resonance and the Universal Circuit.
+Sources, Sinks, Floating Mana Level, Forced Mana Level, Charge, Current, Ground, Static, Resonance and the Universal Circuit.
 
 On the Nature of Manabridges
 ----------------------------
