@@ -1,0 +1,50 @@
+The Children of the Snakes
+--------------------------
+
+Basilisks vs Dragons
+
+Basilisks have Gaze attacks that do not do energy damage. High cost, and the damage effects are always 1. Examples: Gaze Fear, Gaze 1, Gaze Sleep, Gaze Agony, Gaze Stun. They also have touch poison effects.
+
+Dragons have Blast attacks that always do either typed energy, Knockback or Fear. The damage is graduated, and can get very high. Examples: Blast Fire 4, Blast Knockback 6 meters.
+
+Other Legendary Creatures
+-------------------------
+
+Gryphons vs Manticores.
+- Pride.
+
+Unicorns.
+- Purity vs Innocence.
+
+Hydras.
+
+Trolls.
+
+The Gentry.
+
+Firebird vs Thunderbird.
+- Both embody Rebirth.
+
+The Undead
+----------
+
+Vampires:
+- Many kinds of vampires.
+- Mental effects. Mostly point effects. Lots of Charm and Dominate. Touch Paralyse, Touch Drain, Ghoul Fever Disease cards.
+
+Demons
+------
+
+Demons are any creature native to a Hell metaplane. They come in various kinds.
+
+On the Nature of Mana
+---------------------
+
+On the Nature of Metaplanes
+---------------------------
+
+Sources, Sinks, Floating Mana Level, Forced Mana Level, Charge, Current, Ground, Resonance and the Universal Circuit.
+
+On the Nature of Manabridges
+----------------------------
+
