@@ -1,0 +1,36 @@
+- Name: Efficient Counterspell
+  Type: ["Magical", "Counterspell"]
+  Level: Expert
+  XP: 4
+  Prerequisites: [["???"]]
+  Description: "All counterspell abilities that cost 2 or more Mana to use now cost you one less Mana to use."
+- Name: Stunning Counterspell
+  Type: ["Magical", "Counterspell"]
+  Level: Expert
+  XP: 4
+  Prerequisites: [["???"]]
+  Description: When you successfully counterspell a spell, you may call STUN on the spellcaster.
+- Name: Agonising Spellbreak
+  Type: ["Magical", "Counterspell"]
+  Level: Expert
+  XP: 4
+  Prerequisites: [["???"]]
+  Description: When you successfully spell break a spell, you may call AGONY on the spellcaster.
+- Name: Counter Spellpacket
+  Type: ["Magical", "Counterspell"]
+  Level: Adept
+  XP: 1
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: "You may counter spell packet spells at the cost of 2 Mana"
+- Name: Counter Point Spell
+  Type: ["Magical", "Counterspell"]
+  Level: Adept
+  XP: 1
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: "You may counter point spells at the cost of 2 Mana"
+- Name: Counter Touch Spell
+  Type: ["Magical", "Counterspell"]
+  Level: Adept
+  XP: 1
+  Prerequisites: [["Adept Spellcasting"]]
+  Description: "You may counter touch spells at the cost of 2 Mana"
