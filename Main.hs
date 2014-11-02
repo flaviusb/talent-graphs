@@ -12,16 +12,18 @@ data Ability = Ability {
     prerequisites :: [[String]],
     level :: String,
     xp :: Int,
+    ability_type :: Maybe [String],
     description :: String}
     deriving (Show)
 
 instance FromJSON Ability where
     parseJSON (Object v) = Ability <$>
-                           v .: "Name" <*>
-                           v .: "Prerequisites" <*>
-                           v .: "Level" <*>
-                           v .: "XP" <*>
-                           v .: "Description"
+                           v .:  "Name" <*>
+                           v .:  "Prerequisites" <*>
+                           v .:  "Level" <*>
+                           v .:  "XP" <*>
+                           v .:? "Type" <*>
+                           v .:  "Description"
     parseJSON _ = error "Can't parse ability from YAML"
 
 quoted :: String -> String
