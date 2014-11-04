@@ -1,0 +1,122 @@
+- Name: Arcane
+  Type: Energy
+- Name: Fire
+  Type: Energy
+- Name: Shock
+  Type: Energy
+- Name: Holy
+  Type: Energy
+- Name: Silver
+  Type: Energy
+- Name: Counter [Spell, Channelling, Artifact]
+  Type: Normal
+  Description: ""
+- Name: Break [Spell, Channelling, Artifact, Weapon, Armour, Shield]
+  Type: Normal
+  Description: ""
+- Name: Charm
+  Type: Mental
+  Description: >
+    A Charm effect allows the user to give one command (given in the description of the power) that the target now believes to be the case.
+    Some Charm powers will require a Welfare check.
+- Name: Fear
+  Type: Mental
+  Description: The target is terrified of the user of the power. The target may only retreat from the user, and must attempt to flee if the opportunity presents itself.
+- Name: Agony
+  Type: Normal
+  Description: The target is incapacitated with agony. This may be roleplayed however you feel appropriate. As the target is incapacitated, they cannot cast magic, defend themselves, or use most powers or abilities.
+- Name: Blind
+  Type: Normal
+  Description: ""
+Confuse
+
+Banish
+
+Cripple
+
+Mute
+
+Pin
+
+Lethal
+
+Drain
+
+Disintegrate
+
+Disease
+
+Killing Blow
+
+Point Blank
+
+Death
+
+Drain 
+
+Frenzy
+
+Resist
+
+Slowed
+
+Invalid
+
+Status
+
+Reflect
+
+Blast
+
+Bleed
+
+Blight
+
+Freeze
+
+Glare
+
+Knockback
+
+Knockdown
+
+Paralyse
+
+Poison
+
+Sleep
+
+Stun
+
+- Name: Time Out
+  Type: OOC
+  Description: >
+    The safety call for when Out-of-Character
+    a player or NPC has been injured or there
+    is a substantial safety concern that requires
+    the game to stop.
+    All players and NPCs are expected where
+    possible to go down on one knee where
+    appropriate and halt any action except
+    where they are assisting with resolving the
+    OOC situation.
+    The converse call of “Time In” is only to
+    be called by the most senior GM (or PC or
+    NPC if no GMs are present) and only once
+    the one who first made the call is satisfied
+    with the resolution.
+Turn
+
+Pull
+
+Push
+
+Status subcalls:
+  - Health
+  - Disease
+  - Spellcaster
+  - Abomination
+  - Undead
+  - Spirit
+  - Demon?
+  - Faithful (has True Faith)
