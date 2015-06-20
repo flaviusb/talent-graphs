@@ -10,25 +10,34 @@
   Type: Energy
 - Name: Counter [Spell, Channelling, Artifact]
   Type: Normal
+  Default Duration: Instant
   Description: ""
 - Name: Break [Spell, Channelling, Artifact, Weapon, Armour, Shield]
   Type: Normal
+  Default Duration: Instant
   Description: ""
 - Name: Charm
   Type: Mental
+  Default Duration: Encounter
   Description: >
-    A Charm effect allows the user to give one command (given in the description of the power) that the target now believes to be the case.
-    Some Charm powers will require a Welfare check.
+    A Charm effect allows the user to give one specific instruction (given in the description of the power) that the target now believes to be the case.
+    Some Charm powers will require a Welfare check. Call CHARM and then explain the instruction.
 - Name: Fear
   Type: Mental
+  Default Duration: "1 minute"
   Description: The target is terrified of the user of the power. The target may only retreat from the user, and must attempt to flee if the opportunity presents itself.
 - Name: Agony
   Type: Normal
+  Default Duration: "1 minute"
   Description: The target is incapacitated with agony. This may be roleplayed however you feel appropriate. As the target is incapacitated, they cannot cast magic, defend themselves, or use most powers or abilities.
 - Name: Blind
   Type: Normal
-  Description: ""
-Confuse
+  Default Duration: Instant
+  Description: The target is now blinded. They cannot see at all. Appropriate care should be used when roleplaying this.
+- Name: Confuse
+  Type: Mental
+  Default Duration: "1 minute"
+  Description: The target is now in a mental fugue state - they cannot focus, cannot retain a train of thought, and cannot effectively defend themselves or perform magic.
 
 Banish
 
@@ -61,8 +70,6 @@ Resist
 Slowed
 
 Invalid
-
-Status
 
 Reflect
 
@@ -110,6 +117,13 @@ Turn
 Pull
 
 Push
+
+- Name: Bestow
+  Type: Magical
+  Description: The target gains a power specified 
+
+
+Status
 
 Status subcalls:
   - Health
