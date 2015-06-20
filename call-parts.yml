@@ -123,14 +123,15 @@ Push
   Description: The target gains a power specified 
 
 
-Status
-
-Status subcalls:
-  - Health
-  - Disease
-  - Spellcaster
-  - Abomination
-  - Undead
-  - Spirit
-  - Demon?
-  - Faithful (has True Faith)
+- Name: Status
+  Type: Normal
+  Subcalls:
+    - Health
+    - Disease
+    - Spellcaster
+    - Abomination
+    - Undead
+    - Spirit
+    - Demon?
+    - Faithful (has True Faith)
+  Description: Call STATUS to gain specific pieces of information about the target. The subcall specifies the type of information. Unlike in other systems, you need a specific ability to gain the ability to make Status calls, and each ability only gives you specific subcalls.
