@@ -137,12 +137,24 @@ Push
 - Name: Status
   Type: Normal
   Subcalls:
-    - Health
-    - Disease
-    - Spellcaster
-    - Abomination
-    - Undead
-    - Spirit
-    - Demon?
-    - Faithful (has True Faith)
-  Description: Call STATUS to gain specific pieces of information about the target. The subcall specifies the type of information. Unlike in other systems, you need a specific ability to gain the ability to make Status calls, and each ability only gives you specific subcalls.
+    - Name: Health
+      Description: Are you at full health, blooded, half health, or at deaths door, plus non-detailed other information as appropriate - eg are you exhausted, possibly sick (but not what with), possibly concussed or crippled etc.
+    - Name: Detailed Health
+      Description: How many hitpoints are you on, and how many have you lost? Are you crippled, blinded or muted? Are any of these blighted?
+    - Name: Disease
+      Description: What disease cards do you have.
+    - Name: Spellcaster
+      Description: Are you a spellcaster? What is the highest circle of sorcery you can perform? How much mana is in your mana system? Other details about spellcasting abilities are also possible.
+    - Name: Abomination
+      Description: Do you have the 'Abomination' subtype? If you do, what kind of Abomination are you?
+    - Name: Undead
+      Description: Do you have the 'Undead' subtype? If you do, what kind of Undead are you?
+    - Name: Soul
+      Description: Do you have a soul? If you do, do you have any soul marks, anchors, multiples, or soul splinters? Are you carrying an item on you that contains souls, or soul shards?
+    - Name: Posession
+      Description: Are you currently posessed? If you are, what are the details of the posessing entity?
+    - Name: Faith
+      Description: Does your character have any 'True Faith' or 'Faithless' abilities? Is your character an adherent or apostate or opponent of any religion? Does your character have any Divine, Faith, Faithless or Twisted cards? More details are also possible.
+    - Name: Mental effects
+      Description: Are you currently under any mental effects? Which mental effects, and for what durations? Are any of these effects blighted?
+  Description: Call STATUS [subcall] to gain specific pieces of information about the target. The subcall specifies the type of information. Unlike in other systems, you need a specific ability to gain the ability to make Status calls, and each ability only gives you specific subcalls. Depending on the specific roleplaying circumstances and the nature of the ability that gives you the status call, you can engage in some OOC question and answer to determine what your character learns.
