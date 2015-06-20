@@ -91,10 +91,6 @@ Freeze
 
 Glare
 
-Knockback
-
-Knockdown
-
 Paralyse
 
 Poison
@@ -129,13 +125,21 @@ Petrify
   Default Duration: Until the caller's hand (or the brandished symbol) is lowered.
   Description: In addition to making the call, the caller must either raise their arm parallel to the ground with their open palm facing to the front and perpendicular with the ground, or must brandish an appropriate symbol. All beings of the specified type must retreat from the caller, and cannot target them with any effect.
 
-Pull
-
-Push
-
+- Name: Knockback [Distance]
+  Type: Normal
+  Description: The target is swifly knocked back a specific distance. If unspecified, the default distance is 5m.
+- Name: Knockdown
+  Type: Normal
+  Description: The target is knocked prone. This may require care when roleplaying. The target can get up almost immediately after being knocked prone, unless they are under some other effect (like Stun, Slow, Paralyse or Confusion) that might prevent that.
+- Name: Pull [Distance]
+  Type: Normal
+  Description: The target is swiftly pulled towards the caller up to a specified distance. If unspecified, the default distance is 5m.
+- Name: Push
+  Type: Normal
+  Description: The target is moved to a location pointed at. There must be a clear path to get there. OOC the target must move there with all reasonable swiftness. IC they are being levitated there. They can still be interacted with, restrained, attacked etc on the way there, but they do not count as Incapacitated unless there is some other cause.
 - Name: Bestow
   Type: Magical
-  Description: The target gains a specified power with specified conditions. The default conditions are one use, until the end of the watch.
+  Description: The target gains a specified power with specified conditions. The default conditions are one use, until the end of the watch. The power and conditions should be explained OOC if necessary. Special 'Bestowed Power' cards may also be used.
 
 
 - Name: Status
