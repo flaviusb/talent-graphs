@@ -112,7 +112,10 @@ Stun
     NPC if no GMs are present) and only once
     the one who first made the call is satisfied
     with the resolution.
-Turn
+- Name: Turn [Type]
+  Type: Magical
+  Default Duration: Until the caller's hand (or the brandished symbol) is lowered.
+  Description: In addition to making the call, the caller must either raise their arm parallel to the ground with their open palm facing to the front and perpendicular with the ground, or must brandish an appropriate symbol. All beings of the specified type must retreat from the caller, and cannot target them with any effect.
 
 Pull
 
