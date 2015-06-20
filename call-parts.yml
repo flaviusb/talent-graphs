@@ -120,7 +120,7 @@ Push
 
 - Name: Bestow
   Type: Magical
-  Description: The target gains a power specified 
+  Description: The target gains a specified power with specified conditions. The default conditions are one use, until the end of the watch.
 
 
 - Name: Status
