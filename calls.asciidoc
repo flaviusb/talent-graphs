@@ -1,0 +1,111 @@
+== Calls
+
+A call is a speech act which follows the grammar of calls. Colloquially, the constituents of a call may be referred to as calls.
+
+Arcane
+
+Fire
+
+Shock
+
+Holy
+
+Silver
+
+Counter [Spell, Channelling, Artifact]
+
+Break [Spell, Channelling, Artifact, Weapon, Armour, Shield]
+
+Charm
+
+Fear
+
+Agony
+
+Blind
+
+Confuse
+
+Banish
+
+Cripple
+
+Mute
+
+Pin
+
+Lethal
+
+Drain
+
+Disintegrate
+
+Disease
+
+Killing Blow
+
+Point Blank
+
+Death
+
+Drain 
+
+Frenzy
+
+Resist
+
+Slowed
+
+Invalid
+
+Status
+
+Reflect
+
+Blast
+
+Bleed
+
+Blight
+
+Freeze
+
+Glare
+
+Knockback
+
+Knockdown
+
+Paralyse
+
+Poison
+
+Sleep
+
+Stun
+
+Time Out
+
+Turn
+
+Pull
+
+Push
+
+== Targetting types
+
+Self
+
+Touch
+
+Point
+
+Spell Packet
+
+Blast
+
+Glare
+
+Named
+
+Marked Area
