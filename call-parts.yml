@@ -20,8 +20,8 @@
   Type: Mental
   Default Duration: Encounter
   Description: >
-    A Charm effect allows the user to give one specific instruction (given in the description of the power) that the target now believes to be the case.
-    Some Charm powers will require a Welfare check. Call CHARM and then explain the instruction.
+    A Charm effect allows the user to give one specific statement of belief (given in the description of the power) that the target now believes to be the case, plus any particular conditions that will break the belief. If this call is used in a subtle way, the target may not realise IC that they were under a mental effect.
+    Some Charm powers will require a Welfare check. Call CHARM and then quickly go OOC and explain the statement of belief, followed by any particular conditions that will break the Charm.
 - Name: Fear
   Type: Mental
   Default Duration: "1 minute"
