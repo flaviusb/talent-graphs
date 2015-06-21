@@ -87,8 +87,9 @@ Bleed
 
 Blight
 
-Freeze
-
+- Name: Freeze
+  Default Duration: "10 seconds"
+  Description: IC, time is frozen for the duration of the call. Only those who are unaffected can perceive what is going on and take any actions. The unaffected may target each other as normal; effects resolve as normal. At the end of the duration, all of the actions that the unaffected took that target those who are affected will resolve simultaneously, appearing to those who were affected as nonsensical superimposed flickering blurs. Dropping OOC pauses the duration of the Freeze effect.
 - Name: Glare [Call]
   Description: Everyone that can see the caller is affected by the specified call. 'Glare' is a targetting type.
 - Name: Paralyse
