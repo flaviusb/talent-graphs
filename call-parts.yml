@@ -140,6 +140,10 @@ Petrify
 - Name: Bestow
   Type: Magical
   Description: The target gains a specified power with specified conditions. The default conditions are one use, until the end of the watch. The power and conditions should be explained OOC if necessary. Special 'Bestowed Power' cards may also be used.
+- Name: Polymorph [into...]
+  Type: Magical
+  Default Duration: Permanent
+  Description: The target is transformed into another type of creature. Unless the target has experience with shapeshifting, they are likely to also be Confused or Stunned until they can get used to their new form. Their new form may prevent them from using abilities that they have. An effect that allows for transforming into a creature with new abilities will list if it also Bestows any abilities onto the target. OOC: It is the callers responsibility to provide an adequate physical representation of the target's transformed state. For something human sized, makeup and costume are required. For something significantly smaller or larger, an effigy of what the target has been transformed into may be used, with the target wearing a red headband.
 
 
 - Name: Status
