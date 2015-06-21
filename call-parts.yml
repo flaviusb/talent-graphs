@@ -124,7 +124,6 @@ Petrify
   Type: Magical
   Default Duration: Until the caller's hand (or the brandished symbol) is lowered.
   Description: In addition to making the call, the caller must either raise their arm parallel to the ground with their open palm facing to the front and perpendicular with the ground, or must brandish an appropriate symbol. All beings of the specified type must retreat from the caller, and cannot target them with any effect.
-
 - Name: Knockback [Distance]
   Type: Normal
   Description: The target is swifly knocked back a specific distance. If unspecified, the default distance is 5m.
