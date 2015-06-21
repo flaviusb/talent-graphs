@@ -81,8 +81,9 @@ Invalid
 
 Reflect
 
-Blast
-
+- Name: Blast [Distance] [Call]
+  Type: Targetting
+  Description: Everyone within the called distance is affected by the further call. If no distance is called, the default distance is 5m.'Blast' is a targetting type. By convention, when calling a Blast effect that emanates from the caller, the caller should bring their arms together in front of their body, and then fling their arms out to form a line with their palms raised and facing outwards.
 Bleed
 
 Blight
@@ -91,6 +92,7 @@ Blight
   Default Duration: "10 seconds"
   Description: IC, time is frozen for the duration of the call. Only those who are unaffected can perceive what is going on and take any actions. The unaffected may target each other as normal; effects resolve as normal. At the end of the duration, all of the actions that the unaffected took that target those who are affected will resolve simultaneously, appearing to those who were affected as nonsensical superimposed flickering blurs. Dropping OOC pauses the duration of the Freeze effect.
 - Name: Glare [Call]
+  Type: Targetting
   Description: Everyone that can see the caller is affected by the specified call. 'Glare' is a targetting type.
 - Name: Paralyse
   Default Duration: 1 minute.
