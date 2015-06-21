@@ -99,10 +99,11 @@ Sleep
 
 Stun
 
-Maze
-
-Petrify
-
+- Name: Maze
+  Description: The target vanishes, and must complete a Challange card before they can return to reality. They return to the spot they left, unless there is an obstacle in the way, in which case they return as near to where they left as they can. The ability that the caller uses will specify whether they provide the Challenge card or whether a specific crew or ST role will provide the Challenge card.
+- Name: Petrify
+  Default Duration: Permanent
+  Description: The target is turned to stone. They do not age, and are Immune or Invalid for most calls. They only perceive their surrounding in a dim way, and cannot track the passage of time. People who have been Petrified and then restored speak being Petrified as being like a dream that they do not remember clearly. The target cannot take most actions. Amongst other things they: cannot move, speak, do anything that requires an act of will, spend mana, or trigger a spell trigger. If a character is going to be Petrified for an extended period of time, this can be physrepped with an effigy while the player goes OOC. Otherwise, makeup should be used.
 - Name: Time Out
   Type: OOC
   Description: >
