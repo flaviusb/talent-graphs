@@ -89,16 +89,19 @@ Blight
 
 Freeze
 
-Glare
-
-Paralyse
-
-Poison
-
-Sleep
-
-Stun
-
+- Name: Glare [Call]
+  Description: Everyone that can see the caller is affected by the specified call. 'Glare' is a targetting type.
+- Name: Paralyse
+  Default Duration: 1 minute.
+  Description: The target is paralysed for the duration. They are rendered Incapacitated. They cannot speak or move. In most cases, this will also stop the target from casting magic.
+- Name: Poison [Duration] [Further call]
+  Description: The target is affected by the further call after a duration. If the duration is unspecified, the default duration is 1 minute. The call may also be placed through a Poison card, which is on OOC physical representation of a means of poisoning. If you touch or read the card, you must take the effect after the specified duration, unless you are being shown the card OOC.
+- Name: Sleep
+  Default Duration: "3 hours, or until the target is woken."
+  Description: The target falls into a deep slumber. They are incapacitated. This effect can have many different durations and conditions to break, depending on the ability that causes it.
+- Name: Stun
+  Default Duration: "1 minute"
+  Description: The target is stunned. They cannot focus enough to cast magic, move quickly, or effectively defend themselves. They do not, however, count as Incapacitated.
 - Name: Maze
   Description: The target vanishes, and must complete a Challange card before they can return to reality. They return to the spot they left, unless there is an obstacle in the way, in which case they return as near to where they left as they can. The ability that the caller uses will specify whether they provide the Challenge card or whether a specific crew or ST role will provide the Challenge card.
 - Name: Petrify
