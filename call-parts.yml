@@ -158,7 +158,7 @@ Blight
     - Name: Detailed Health
       Description: How many hitpoints are you on, and how many have you lost? Are you crippled, blinded or muted? Are any of these blighted?
     - Name: Disease
-      Description: What disease cards do you have.
+      Description: What disease cards do you have?
     - Name: Spellcaster
       Description: Are you a spellcaster? What is the highest circle of sorcery you can perform? How much mana is in your mana system? Other details about spellcasting abilities are also possible.
     - Name: Abomination
