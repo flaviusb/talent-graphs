@@ -69,8 +69,8 @@ A brief description of the metasetting, the setting, and the metagame.
 
 'The kinds of things a hero can be'
 
-The call and effect system.
-List of calls, examples of interactions between calls, examples of effects.
+The call, effect, and state of being system.
+List of calls, list of states of being, examples of interactions between calls, examples of effects.
 How to run a scene with calls.
 How this interacts with fluff and calibration.
 How this differs between tabletop and larp.
