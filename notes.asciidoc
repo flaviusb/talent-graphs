@@ -61,3 +61,34 @@ Fae Realms
 On the Nature of Manabridges
 ----------------------------
 
+
+Sections
+--------
+
+A brief description of the metasetting, the setting, and the metagame.
+
+'The kinds of things a hero can be'
+
+The call and effect system.
+List of calls, examples of interactions between calls, examples of effects.
+How to run a scene with calls.
+How this interacts with fluff and calibration.
+How this differs between tabletop and larp.
+
+XP - The normal ability trees. Rule/fluff dichotomy.
+GP - 'Knowledges' - Spells, potions, schematics, creature lores, languages
+SP - Money. Stuff. Artifacts.
+BP - Backgrounds. Connections, title, otherwise unrepresented fields of knowledge and experience, occupations, tragedies that befell you, blessings or curses, fame or infamy. Anything where you say to a GM 'I know this/can do this because of my backstory'.
+
+Introduce the idea of the Shadowguide. Introduce the idea of Snowflake Points.
+
+Calibration. Getting everyone on the same page. GM and player. Players. GMs.
+
+Calculating and using 'aptitude points' and 'chronicle success points'.
+Challenges. Descriptions.
+
+The downtime system overview.
+Personal downtime metasystem, plus some examples of specific downtime systems for specific types of games.
+Factional or group downtime metasystems, plus some examples of specific downtime systems for specific types of games.
+XP, GP, SP and BP awarded during downtime.
+Generated fiction.
