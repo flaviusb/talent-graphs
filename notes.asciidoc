@@ -8,6 +8,22 @@ Basilisks have Gaze attacks that do not do energy damage. High cost, and the dam
 
 Dragons have Blast attacks that always do either typed energy, Knockback or Fear. The damage is graduated, and can get very high. Examples: Blast Fire 4, Blast Knockback 6 meters.
 
+The Birds
+---------
+
+The birds are messengers. Genus and species are associated with kind and faction.
+
+Eg Corvidae: Jackdaws, Crows, Ravens, Rooks, Magpies.
+
+Doves.
+
+Pelicans.
+
+The Beasts
+----------
+
+Rage, frenzy, self polymorph, regeneration, some minor infection powers, some minor resilience powers.
+
 Other Legendary Creatures
 -------------------------
 
@@ -35,6 +51,14 @@ The Undead
 Vampires:
 - Many kinds of vampires.
 - Mental effects. Mostly point effects. Lots of Charm and Dominate. Touch Paralyse, Touch Drain, Ghoul Fever Disease cards.
+
+Shades
+
+Ghouls
+
+Ghasts
+
+Zombies
 
 Demons
 ------
