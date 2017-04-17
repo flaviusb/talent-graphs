@@ -12,9 +12,13 @@ Holy
 
 Silver
 
+Iron
+
+Spirit
+
 Counter [Spell, Channelling, Artifact]
 
-Break [Spell, Channelling, Artifact, Weapon, Armour, Shield]
+Break [Spell, Channelling, Artifact, Weapon, Armour, Shield, Limb/Arm/Leg]
 
 Charm
 
@@ -27,8 +31,6 @@ Blind
 Confuse
 
 Banish
-
-Cripple
 
 Mute
 
@@ -78,6 +80,8 @@ Knockdown
 
 Paralyse
 
+Petrify
+
 Poison
 
 Sleep
@@ -91,6 +95,8 @@ Turn
 Pull
 
 Push
+
+Bestow
 
 == Targetting types
 
@@ -109,3 +115,5 @@ Glare
 Named
 
 Marked Area
+
+Card (Contains specific transmission rules on the card)
