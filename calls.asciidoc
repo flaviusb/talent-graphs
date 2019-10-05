@@ -117,3 +117,7 @@ Named
 Marked Area
 
 Card (Contains specific transmission rules on the card)
+
+== Bands, tags etc
+
+Some of these things have corresponding bands/tags, or bands/tags that interact with the call or show a particular state of being. For example, a blue headband indicates... whereas a red headband indicates OOC.
