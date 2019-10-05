@@ -38,6 +38,15 @@
   Type: Mental
   Default Duration: "1 minute"
   Description: The target is now in a mental fugue state - they cannot focus, cannot retain a train of thought, and cannot effectively defend themselves or perform magic.
+- Name: Checkpoint [Name] Set
+  Type: Shaping or Illusion or Timetravel
+  Default Duration: Instant
+  Description: Set a checkpoint with a name. All characters effected record their status.
+- Name: Checkpoint [Name] Revert
+  Type: Shaping or Illusion or Timetravel
+  Default Duration: Instant
+  Description: Restore all effected characters to their recorded status.
+  
 
 Banish
 
